@@ -1,47 +1,50 @@
-body{
-    width: 100%;
-}
-header{
-    width: 100%;
-    margin: 0;
-    padding-right: 0px;
-    height: auto;
-    padding: 30px 20px;
-}
-header p{
-    width: 250px;
-}
-header h1{
-    font-size: 45px;
-    font-weight: 700;
-
-}
-
-
-
-
-/* ----bio responsive  */
-.bio-section{
-    max-width: 100%;
-    flex-direction: column;
-
-}
-.bio-section .bio-image{
-    width: 100%;
-}
-.bio-section .bio-content{
-    width: 100%;
-    padding: 0 20px;
-}
-
-
-
-/* plan section responsive */
-
-.plans-section{
-    max-width: 100%;
-}
-.plans-card-container{
-    flex-direction: column;
-    gap: 20px;
+@media only screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        margin: 0;
+        padding-right: 0px;
+        height: auto;
+        padding: 30px 20px;
+    }
+    header p{
+        width: 250px;
+    }
+    header h1{
+        font-size: 45px;
+        font-weight: 700;
+    
+    }
+    
+    
+    
+    
+    /* ----bio responsive  */
+    .bio-section{
+        max-width: 100%;
+        flex-direction: column;
+    
+    }
+    .bio-section .bio-image{
+        width: 100%;
+    }
+    .bio-section .bio-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    
+    
+    /* plan section responsive */
+    
+    .plans-section{
+        max-width: 100%;
+    }
+    .plans-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
 }
